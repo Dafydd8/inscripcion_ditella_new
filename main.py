@@ -73,7 +73,7 @@ cards =driver.find_elements(By.CLASS_NAME, 'desktop-subject-item-container')
 print(cards)
 
 # Esperar hasta que sea la hora de inscripción
-while datetime.now() < hora_de_inscripcion:
+while esperar and datetime.now() < hora_de_inscripcion:
 	pass
 
 # Inscribir en las materias
