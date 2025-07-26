@@ -5,8 +5,6 @@ from datetime import datetime
 import datos
 import time
 import undetected_chromedriver as uc
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
 
 ### PATH DEL DRIVER DE GOOGLE
 chromedriver = datos.chromedriverpath
